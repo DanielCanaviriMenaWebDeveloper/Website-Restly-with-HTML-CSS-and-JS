@@ -17,6 +17,27 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+/* 66 */
+a {
+    color: #454545;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+/* 122 */
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 769 */
+.bg-lighter {
+    background-color: #e5eef6;
+}
+
 /* 1559 */
 .pb-10, .py-10 {
     padding-bottom: 10px;
@@ -46,6 +67,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* 4353 */
+.top-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* 4363 */
+.top-left ul li {
+    margin-right: 50px;
+}
+
+/* 4366 */
+@media only screen and (max-width: 1500px) {
+    .top-left ul li {
+        margin-right: 15px;
+    }
 }
 
 /* 4709 */
