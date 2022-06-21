@@ -1,3 +1,6 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&family=Rubik:wght@400;500&display=swap");
+
 /* 50 */
 * {
     margin: 0;
@@ -26,11 +29,39 @@ a {
     text-decoration: none;
 }
 
+/* 74 */
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+
 /* 122 */
 ul, li {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+/* 562 */
+.social-style-one {
+    display: inline-block;
+}
+
+/* 564 */
+.social-style-one a {
+    margin-right: 15px;
+    color: #000000;
+}
+
+/* 567 */
+.social-style-one a:last-child {
+    margin-right: 0;
+}
+
+/* 569 */
+.social-style-one a:hover {
+    color: #104cba;
 }
 
 /* 769 */
@@ -84,6 +115,31 @@ ul, li {
 /* 4366 */
 @media only screen and (max-width: 1500px) {
     .top-left ul li {
+        margin-right: 15px;
+    }
+}
+
+/* 4369 */
+.top-right {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* 4382 */
+.top-right .office-time {
+    margin-right: 75px;
+}
+
+/* 4387 */
+.top-right .office-time i {
+    margin-right: 10px;
+    color: #104cba;
+}
+
+/* 4391 */
+@media only screen and (max-width: 1500px) {
+    .top-right .office-time {
         margin-right: 15px;
     }
 }
