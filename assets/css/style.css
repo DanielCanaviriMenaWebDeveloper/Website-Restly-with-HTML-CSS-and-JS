@@ -43,6 +43,11 @@ ul, li {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 /* 562 */
 .social-style-one {
     display: inline-block;
@@ -69,6 +74,11 @@ ul, li {
     background-color: #e5eef6;
 }
 
+/* 754 */
+.bg-blue {
+    background-color: #104cba;
+}
+
 /* 1559 */
 .pb-10, .py-10 {
     padding-bottom: 10px;
@@ -77,6 +87,26 @@ ul, li {
 /* 1157 */
 .pt-10, .py-10 {
     padding-top: 10px;
+}
+
+/* 1173 */
+.pt-30, .py-30 {
+    padding-top: 30px;
+}
+
+/* 1418 */
+.pr-85, .px-85 {
+    padding-right: 85px;
+}
+
+/* 1575 */
+.pb-30, .py-30 {
+    padding-bottom: 30px;
+}
+
+/* 1820 */
+.pl-85, .px-85 {
+    padding-left: 85px;
 }
 
 /* 4312 */
@@ -90,6 +120,13 @@ ul, li {
 /* 4319 */
 .main-header .header-upper .container-fluid {
     padding: 0;
+}
+
+/* 4324 */
+.main-header .logo {
+    z-index: 9;
+    position: relative;
+    padding: 2px 0;
 }
 
 /* 4337 */
@@ -144,11 +181,22 @@ ul, li {
     }
 }
 
+/* 4702 */
+.header-one .logo-outer {
+    margin-right: 45px;
+}
+
 /* 4709 */
 .header-one .header-top {
     padding-left: 85px;
     padding-right: 230px;
 }
+
+/* 4717 */
+.header-one .header-inner {
+    padding-right: 230px;
+}
+
 /* 4721 */
 @media only screen and (max-width: 1500px) {
     .header-one .header-inner, .header-one .header-top {
