@@ -109,6 +109,18 @@ img {
     padding-left: 85px;
 }
 
+/*******************************************************/
+/***************** 05. Custom Animation ****************/
+/*******************************************************/
+/** Header Section Animation **/
+.main-header .logo,
+.main-menu  .navigation > li {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: fadeRight;
+}
+
+
 /* 4312 */
 .main-header .header-upper {
     position: relative;
