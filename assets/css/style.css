@@ -48,6 +48,27 @@ img {
     display: inline-block;
 }
 
+/* 267 */
+.theme-btn, a.theme-btn {
+    background: #104cba;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    padding: 11px 28px;
+    display: inline-flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+/* 295 */
+.theme-btn:hover, a.theme-btn:hover {
+    color: white;
+    background: #000000;
+}
+
 /* 562 */
 .social-style-one {
     display: inline-block;
@@ -191,6 +212,40 @@ img {
     .top-right .office-time {
         margin-right: 15px;
     }
+}
+
+/* 4394 */
+.nav-outer {
+    width: 100%;
+    position: relative;
+}
+
+/* 4400 */
+.nav-outer .menu-btn {
+    margin-left: auto;
+}
+
+/* 4434 */
+.main-menu .navbar-collapse li {
+    float: left;
+    padding: 34px 25px;
+}
+
+/* 4438 */
+.main-menu .navbar-collapse li {
+    padding: 34px 16px;
+}
+
+/* 4464 */
+.main-menu .navbar-collapse li a {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    opacity: 1;
+    font-weight: 500;
+    color: #000000;
+    text-transform: capitalize;
+    transition: all 500ms ease;
 }
 
 /* 4702 */
