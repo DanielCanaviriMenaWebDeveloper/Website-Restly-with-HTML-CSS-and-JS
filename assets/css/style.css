@@ -115,6 +115,11 @@ img {
     padding-top: 30px;
 }
 
+/* 1309 */
+.pt-200, .py-200 {
+    padding-top: 200px;
+}
+
 /* 1418 */
 .pr-85, .px-85 {
     padding-right: 85px;
@@ -123,6 +128,11 @@ img {
 /* 1575 */
 .pb-30, .py-30 {
     padding-bottom: 30px;
+}
+
+/* 1671 */
+.pb-150, .py-150 {
+    padding-bottom: 150px;
 }
 
 /* 1820 */
