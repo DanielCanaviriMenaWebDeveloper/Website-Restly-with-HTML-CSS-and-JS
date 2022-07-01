@@ -48,6 +48,11 @@ img {
     display: inline-block;
 }
 
+/* 248 */
+.text-white .sub-title {
+    color: white;
+}
+
 /* 267 */
 .theme-btn, a.theme-btn {
     background: #104cba;
@@ -88,6 +93,32 @@ img {
 /* 569 */
 .social-style-one a:hover {
     color: #104cba;
+}
+
+/* 688 */
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+/* 691 */
+.overlay::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+    background-color: #0d004c;
+}
+
+
+/* 741 */
+.bgs-cover {
+    background-size: cover;
+    background-position: center;
 }
 
 /* 769 */
@@ -279,4 +310,10 @@ img {
     .header-one .header-inner, .header-one .header-top {
         padding-right: 85px;
     }
+}
+
+/* 5302 */
+.hero-content .sub-title {
+    font-size: 18px;
+    font-weight: 500;
 }
