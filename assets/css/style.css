@@ -152,6 +152,14 @@ h1 {
     font-family: "Nunito", sans-serif;
 }
 
+/* 992 */
+.service-normal .icon i {
+    font-size: 70px;
+    display: inline-block;
+    color: #104cba;
+    margin-bottom: 20px;
+}
+
 /* 1559 */
 .pb-10, .py-10 {
     padding-bottom: 10px;
