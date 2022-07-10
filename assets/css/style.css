@@ -50,6 +50,10 @@ h1 {
     font-size: 72px;
 }
 
+/* 119 */
+p {
+    color: #454545;
+}
 
 /* 122 */
 ul, li {
@@ -61,6 +65,11 @@ ul, li {
 img {
     max-width: 100%;
     display: inline-block;
+}
+
+/* 212 */
+.container {
+    max-width: 1200px;
 }
 
 /* 248 */
@@ -147,8 +156,9 @@ img {
 }
 
 /* 987 */
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
+    color: #000000;
     font-family: "Nunito", sans-serif;
 }
 
@@ -175,6 +185,11 @@ h1 {
     padding-top: 30px;
 }
 
+/* 1245 */
+.pt-120, .py-120 {
+    padding-top: 120px;
+}
+
 /* 1309 */
 .pt-200, .py-200 {
     padding-top: 200px;
@@ -195,6 +210,11 @@ h1 {
     padding-bottom: 150px;
 }
 
+/* 1623 */
+.pb-90, .py-90 {
+    padding-bottom: 90px;
+}
+
 /* 1820 */
 .pl-85, .px-85 {
     padding-left: 85px;
@@ -208,6 +228,20 @@ h1 {
 /* 2132 */
 .mt-35, .my-35 {
     margin-top: 35px;
+}
+
+/* 3037 */
+@media only screen and (max-width: 991px) {
+    .rpt-100, .rpy-100 {
+        padding-top: 100px;
+    }
+}
+
+/* 3207 */
+@media only screen and (max-width: 991px) {
+    .rpb-70, .rpy-70 {
+        padding-bottom: 70px;
+    }
 }
 
 /*******************************************************/
@@ -355,4 +389,42 @@ h1 {
 .hero-content .sub-title {
     font-size: 18px;
     font-weight: 500;
+}
+
+/* 6254 */
+.service-box {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 6266 */
+.service-normal, .service-hover {
+    padding: 25px;
+    border-radius: 5px;
+}
+
+/* 6271 */
+.service-normal {
+    transition: 0.5s;
+    border: 1px solid #e7edf8;    
+}
+
+/* 6276 */
+.service-normal h6 {
+    margin-bottom: 15px;
+}
+
+/* 6278 */
+.service-normal .btn-circle {
+    margin-top: 10px;
+    color: #104cba;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background: #e5eef6;
+    line-height: 33px;
+    border-radius: 50px;
+    text-align: center;
 }
