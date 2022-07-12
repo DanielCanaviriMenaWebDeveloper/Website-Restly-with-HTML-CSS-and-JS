@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 84 */
-.text-white h1 {
+.text-white h1, .text-white h3 {
     color: white;
 }
 
@@ -148,6 +148,11 @@ img {
 /* 769 */
 .bg-lighter {
     background-color: #e5eef6;
+}
+
+/* 754 */
+.bg-blue {
+    background-color: #104cba;
 }
 
 /* 754 */
@@ -427,4 +432,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 33px;
     border-radius: 50px;
     text-align: center;
+}
+
+/* 6309 */
+.service-hover h3 {
+    margin-bottom: 20px;
 }
