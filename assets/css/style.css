@@ -50,6 +50,12 @@ h1 {
     font-size: 72px;
 }
 
+/* 105 */
+h3 {
+    line-height: 1.55;
+    font-size: 22px;
+}
+
 /* 119 */
 p {
     color: #454545;
@@ -117,6 +123,11 @@ img {
 /* 569 */
 .social-style-one a:hover {
     color: #104cba;
+}
+
+/* 683 */
+.text-white *, .text-white a {
+    color: white;
 }
 
 /* 688 */
@@ -404,6 +415,11 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+/* 6263 */
+.service-box:hover .service-hover {
+    bottom: 0;
+}
+
 /* 6266 */
 .service-normal, .service-hover {
     padding: 25px;
@@ -434,7 +450,28 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+/* 6289 */
+.service-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    transition: all 500ms ease;
+}
+
 /* 6309 */
 .service-hover h3 {
     margin-bottom: 20px;
+}
+
+/* 6311 */
+.service-hover .theme-btn {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #285ec1;
 }
