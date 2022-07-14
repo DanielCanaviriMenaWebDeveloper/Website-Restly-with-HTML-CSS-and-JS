@@ -171,6 +171,11 @@ img {
     background-color: #104cba;
 }
 
+/* 763 */
+.bg-light-black {
+    background-color: #0e1e2a;
+}
+
 /* 987 */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
@@ -406,6 +411,38 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     font-weight: 500;
 }
+
+/* 5820 */
+.about-section {
+    position: relative;
+    z-index: 1;
+}
+
+/* 5823 */
+.about-section::after {
+    position: absolute;
+    content: '';
+    height: 90%;
+    width: 40%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: url(../images/about/about-bg-shape.png) no-repeat bottom;
+}
+
+/* 5860 */
+.about-image-shape::after {
+    position: absolute;
+    content: '';
+    height: 97%;
+    width: 76%;
+    top: 13px;
+    left: 13px;
+    z-index: -1;
+    background: #273540;
+    
+}
+
 
 /* 6254 */
 .service-box {
