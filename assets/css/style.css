@@ -191,6 +191,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+/* 1406 */
+.pr-70, .px-70 {
+    padding-right: 70px;
+}
+
+
 /* 1559 */
 .pb-10, .py-10 {
     padding-bottom: 10px;
@@ -255,6 +261,13 @@ h1, h2, h3, h4, h5, h6 {
 @media only screen and (max-width: 991px) {
     .rpt-100, .rpy-100 {
         padding-top: 100px;
+    }
+}
+
+/* 3071 */
+@media only screen and (max-width: 991px) {
+    .rpr-0, .rpx-0 {
+        padding-right: 0px !important;
     }
 }
 
