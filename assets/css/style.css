@@ -41,13 +41,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 84 */
-.text-white h1, .text-white h3 {
+.text-white h1, .text-white h2, .text-white h3 {
     color: white;
 }
 
 /* 98 */
 h1 {
     font-size: 72px;
+}
+
+/* 101 */
+h2 {
+    line-height: 1.33;
+    font-size: 36px;
 }
 
 /* 105 */
@@ -78,6 +84,14 @@ img {
     max-width: 1200px;
 }
 
+/* 230 */
+.section-title .sub-title {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #104cba;
+    display: inline-block;
+}
+
 /* 248 */
 .text-white .sub-title {
     color: white;
@@ -102,6 +116,15 @@ img {
 .theme-btn:hover, a.theme-btn:hover {
     color: white;
     background: #000000;
+}
+
+/* 522 */
+.list-style-one li::before {
+    color: white;
+    font-size: 14px;
+    content: "\f00c";
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Free';
 }
 
 /* 562 */
@@ -247,6 +270,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 85px;
 }
 
+/* 2116 */
+.mt-15, .my-15 {
+    margin-top: 15px;
+}
+
+
 /* 2120 */
 .mt-20, .my-20 {
     margin-top: 20px;
@@ -255,6 +284,11 @@ h1, h2, h3, h4, h5, h6 {
 /* 2132 */
 .mt-35, .my-35 {
     margin-top: 35px;
+}
+
+/* 2534 */
+.mb-35, .my-35 {
+    margin-bottom: 35px;
 }
 
 /* 3037 */
@@ -523,6 +557,13 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
 }
 
+/* 5873 */
+.about-content .list-style-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* 6254 */
 .service-box {
