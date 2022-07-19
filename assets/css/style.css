@@ -118,12 +118,26 @@ img {
     background: #000000;
 }
 
+/* 516 */
+.list-style-one li {
+    display: flex;
+    font-weight: 500;
+}
+
 /* 522 */
 .list-style-one li::before {
     color: white;
     font-size: 14px;
     content: "\f00c";
     font-weight: 600;
+    margin-top: -4px;
+    margin-right: 15px;
+    width: 35px;
+    height: 35px;
+    background: #104cba;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
     font-family: 'Font Awesome 5 Free';
 }
 
@@ -199,8 +213,13 @@ img {
     background-color: #0e1e2a;
 }
 
+/* 773 */
+.br-5 {
+    border-radius: 5px;
+}
+
 /* 987 */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .success-item .count-text {
     font-weight: 800;
     color: #000000;
     font-family: "Nunito", sans-serif;
@@ -235,6 +254,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 30px;
 }
 
+/* 1213 */
+.pt-80, .py-80 {
+    padding-top: 80px;
+}
+
 /* 1245 */
 .pt-120, .py-120 {
     padding-top: 120px;
@@ -243,6 +267,11 @@ h1, h2, h3, h4, h5, h6 {
 /* 1309 */
 .pt-200, .py-200 {
     padding-top: 200px;
+}
+
+/* 1370 */
+.pr-25, .px-25 {
+    padding-right: 25px;
 }
 
 /* 1418 */
@@ -263,6 +292,11 @@ h1, h2, h3, h4, h5, h6 {
 /* 1623 */
 .pb-90, .py-90 {
     padding-bottom: 90px;
+}
+
+/* 1772 */
+.pl-25, .px-25 {
+    padding-left: 25px;
 }
 
 /* 1820 */
@@ -522,6 +556,12 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../images/about/about-bg-shape.png) no-repeat bottom;
 }
 
+.about-section .fact-counter-inner {
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
 /* 5844 */
 .about-image-shape {
     max-width: 555px;
@@ -563,6 +603,12 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+/* 5885 */
+.about-content .list-style-one li {
+    width: 49%;
+    margin-top: 30px;
 }
 
 /* 6254 */
@@ -632,4 +678,35 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
     padding: 10px 20px;
     background: #285ec1;
+}
+
+/* 6713 */
+.success-item {
+    margin-bottom: 50px;
+}
+
+/* 6715 */
+.success-item .count-text {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* 6721 */
+.success-item .count-text.plus::after {
+    content: '+';
+}
+
+/* 6725 */
+.success-item p {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+/* 6736 */
+.text-white .count-text {
+    color: white;
 }
