@@ -1,4 +1,4 @@
-console.log("Hola")
+
 
 /* 23. CountDown Start */
 $('.count-down').each(function () {
