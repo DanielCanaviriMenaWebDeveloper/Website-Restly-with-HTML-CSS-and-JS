@@ -269,6 +269,11 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
     padding-top: 200px;
 }
 
+/* 1341 */
+.pt-240, .py-240 {
+    padding-top: 240px;
+}
+
 /* 1370 */
 .pr-25, .px-25 {
     padding-right: 25px;
@@ -283,6 +288,12 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 .pb-30, .py-30 {
     padding-bottom: 30px;
 }
+
+/* 1647 */
+.pb-120, .py-120 {
+    padding-bottom: 120px;
+}
+
 
 /* 1671 */
 .pb-150, .py-150 {
@@ -332,6 +343,13 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
     }
 }
 
+/* 3067 */
+@media only screen and (max-width: 991px) {
+    .rpt-150, .rpy-150 {
+        padding-top: 150px;
+    }
+}
+
 /* 3071 */
 @media only screen and (max-width: 991px) {
     .rpr-0, .rpx-0 {
@@ -343,6 +361,13 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 @media only screen and (max-width: 991px) {
     .rpb-70, .rpy-70 {
         padding-bottom: 70px;
+    }
+}
+
+/* 3225 */
+@media only screen and (max-width: 991px) {
+    .rpb-100, .rpy-100 {
+        padding-bottom: 100px;
     }
 }
 
