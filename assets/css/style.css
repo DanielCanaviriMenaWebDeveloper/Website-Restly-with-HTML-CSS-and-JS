@@ -62,10 +62,16 @@ h3 {
     font-size: 22px;
 }
 
+/* 113 */
+h5 {
+    font-size: 18px;
+}
+
 /* 119 */
 p {
     color: #454545;
 }
+
 
 /* 122 */
 ul, li {
@@ -226,7 +232,8 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 }
 
 /* 992 */
-.service-normal .icon i {
+.service-normal .icon i, 
+.featured-item .icon i {
     font-size: 70px;
     display: inline-block;
     color: #104cba;
@@ -734,4 +741,31 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 /* 6736 */
 .text-white .count-text {
     color: white;
+}
+
+/* 6895 */
+.featured-item {
+    position: relative;
+    display: flex;
+    padding: 25px;
+    background: white;
+    border: 2px solid #e6ecf7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+/* 6915 */
+.featured-item .icon {
+    margin-right: 25px;
+}
+
+/* 6917 */
+.featured-item p {
+    margin-bottom: 0;
+}
+
+/* 6919 */
+.featured-item .learn-more {
+    margin-top: 12px;
 }
