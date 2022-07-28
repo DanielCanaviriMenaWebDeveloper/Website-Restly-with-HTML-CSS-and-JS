@@ -830,3 +830,15 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 .featured-item .learn-more {
     margin-top: 12px;
 }
+
+/* 7054 */
+.work-progress-item {
+    margin: 50px auto 0;
+    text-align: center;
+    max-width: 190px;
+}
+
+/* 7058 */
+.work-progress-item .icon {
+    
+}
