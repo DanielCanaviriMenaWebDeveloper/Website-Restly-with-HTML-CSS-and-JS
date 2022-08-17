@@ -268,7 +268,8 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 
 /* 992 */
 .service-normal .icon i, 
-.featured-item .icon i {
+.featured-item .icon i,
+.work-progress-item .icon i {
     font-size: 70px;
     display: inline-block;
     color: #104cba;
@@ -840,5 +841,34 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 
 /* 7058 */
 .work-progress-item .icon {
-    
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background: #285ec1;
+    line-height: 130px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* 7076 */
+.work-progress-item .icon i {
+    color: white;
+    margin: 12px 0 0;
+}
+
+/* 7082 */
+.work-progress-item .icon .progress-step {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: 500;
+    width: 30px;
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #104cba;
 }
