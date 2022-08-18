@@ -80,6 +80,15 @@ ul, li {
     margin: 0;
 }
 
+/* 131 */
+header::after,
+section::after,
+footer::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
 img {
     max-width: 100%;
     display: inline-block;
@@ -129,6 +138,14 @@ img {
     display: inline-flex;
     align-items: center;
     text-transform: capitalize;
+}
+
+/* 290 */
+.theme-btn.btn-circle,
+a.theme-btn.btn-circle {
+    border-radius: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /* 295 */
@@ -260,7 +277,9 @@ a.theme-btn.style-two {
 }
 
 /* 987 */
-h1, h2, h3, h4, h5, h6, .success-item .count-text {
+h1, h2, h3, h4, h5, h6, 
+.success-item .count-text,
+.pricing-header .price {
     font-weight: 800;
     color: #000000;
     font-family: "Nunito", sans-serif;
@@ -305,6 +324,11 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 /* 1217 */
 .pt-85, .py-85 {
     padding-top: 85px;
+}
+
+/* 1241 */
+.pt-115, .py-115 {
+    padding-top: 115px;
 }
 
 /* 1245 */
@@ -403,6 +427,13 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
 /* 2534 */
 .mb-35, .my-35 {
     margin-bottom: 35px;
+}
+
+/* 3034 */
+@media only screen and (max-width: 991px) {
+    .rpt-95, .rpy-95 {
+        padding-top: 95px;
+    }
 }
 
 /* 3037 */
@@ -871,4 +902,61 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text {
     border-radius: 50%;
     text-align: center;
     color: #104cba;
+}
+
+/* 7285 */
+.pricing-item {
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 15px 15px 45px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+/* 7299 */
+.pricing-item ul {
+    margin: 45px 0;
+}
+
+/* 7301 */
+.pricing-item ul li {
+    transition: 0.3s;
+    margin-bottom: 18px;
+}
+
+/* 7307 */
+.pricing-header {
+    padding: 25px;
+    transition: 0.5s;
+    border-radius: 5px;
+    background-color: #e5eef6;
+}
+
+/* 7314 */
+.pricing-header .pricing-title {
+    transition: 0.5s;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+/* 7320 */
+.pricing-header .price {
+    line-height: 1;
+    font-size: 48px;
+    transition: 0.5s;
+    color: #104cba;
+}
+
+/* 7327 */
+.pricing-header .price::before {
+    content: '$';
+    font-size: 24px;
+}
+
+/* 7330 */
+.pricing-header .pricing-time {
+    opacity: 0.5;
+    color: black;
+    margin: 10px 0 0;
+    transition: 0.5s;
 }
