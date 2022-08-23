@@ -99,6 +99,12 @@ img {
     max-width: 1200px;
 }
 
+/* 215 */
+.small-gap {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
 /* 230 */
 .section-title .sub-title {
     font-weight: 500;
