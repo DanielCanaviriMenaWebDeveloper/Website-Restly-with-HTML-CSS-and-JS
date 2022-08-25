@@ -1010,6 +1010,18 @@ h1, h2, h3, h4, h5, h6,
     background: #104cba;
 }
 
+/* 7689 */
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+/* 7693 */
+.gallery-item:hover .gallery-content {
+    transform: translateY(0);
+}
+
 /* 7697 */
 .gallery-item img {
     width: 100%;
@@ -1024,4 +1036,12 @@ h1, h2, h3, h4, h5, h6,
     padding: 22px 22px 10px;
     transform: translateY(calc(100% + 30px));
     width: calc(100% - 40px);
+    transition: 0.5s;
+}
+
+/* 7712 */
+.gallery-item .gallery-content .category {
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
 }
