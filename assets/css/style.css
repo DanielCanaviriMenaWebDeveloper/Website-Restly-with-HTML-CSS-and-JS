@@ -630,6 +630,16 @@ h1, h2, h3, h4, h5, h6,
 /*******************************************************/
 /******************* 06. Header style ******************/
 /*******************************************************/
+/* 4303 */
+.main-header {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100%;
+    transition: all 500ms ease;
+}
+
 /* 4312 */
 .main-header .header-upper {
     position: relative;
