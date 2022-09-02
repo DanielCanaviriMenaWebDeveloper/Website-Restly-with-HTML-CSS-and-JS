@@ -418,6 +418,11 @@ h1, h2, h3, h4, h5, h6,
     padding-right: 85px;
 }
 
+/* 1559 */
+.pb-10, .py-10 {
+    padding-bottom: 10px;
+}
+
 /* 1575 */
 .pb-30, .py-30 {
     padding-bottom: 30px;
@@ -746,6 +751,11 @@ h1, h2, h3, h4, h5, h6,
     transition: all 500ms ease;
 }
 
+/* 4613 */
+.text-white .top-right .office-time i {
+    color: white;
+}
+
 /* 4702 */
 .header-one .logo-outer {
     margin-right: 45px;
@@ -769,10 +779,34 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
+/* 4793 */
+.header-three .top-left {
+    display: block;
+}
+
+/* 4799 */
+.header-three .top-right {
+    margin-right: 0;
+}
+
+/* 4804 */
+.header-three .top-right .office-time {
+    display: block;
+    margin-right: 0;
+}
+
 /* 5302 */
 .hero-content .sub-title {
     font-size: 18px;
     font-weight: 500;
+}
+
+/* 5771 */
+.page-banner {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
 /* 5820 */
