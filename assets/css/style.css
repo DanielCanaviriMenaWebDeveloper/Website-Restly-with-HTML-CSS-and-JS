@@ -728,6 +728,8 @@ h1, h2, h3, h4, h5, h6,
     margin-left: auto;
 }
 
+
+
 /* 4434 */
 .main-menu .navbar-collapse li {
     float: left;
@@ -779,6 +781,12 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
+/* 4786 */
+.header-three .header-upper {
+    position: absolute;
+    border-bottom: 1px solid #485165;
+}
+
 /* 4793 */
 .header-three .top-left {
     display: block;
@@ -793,6 +801,11 @@ h1, h2, h3, h4, h5, h6,
 .header-three .top-right .office-time {
     display: block;
     margin-right: 0;
+}
+
+/* 4808 */
+.header-three .main-menu {
+    margin-left: auto;
 }
 
 /* 5302 */
