@@ -728,6 +728,10 @@ h1, h2, h3, h4, h5, h6,
     margin-left: auto;
 }
 
+/* 4419 */
+.main-menu .navbar-collapse {
+    padding: 0;
+}
 
 
 /* 4434 */
@@ -737,8 +741,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* 4438 */
-.main-menu .navbar-collapse li {
-    padding: 34px 16px;
+@media only screen and (max-width: 1500px) {
+    .main-menu .navbar-collapse li {
+        padding: 34px 16px;
+    }
 }
 
 /* 4464 */
@@ -812,6 +818,11 @@ h1, h2, h3, h4, h5, h6,
 /* 4808 */
 .header-three .main-menu {
     margin-left: auto;
+}
+
+/* 4811 */
+.header-three .menu-btn {
+    margin-left: 15px;
 }
 
 /* 5302 */
