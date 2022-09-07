@@ -367,6 +367,11 @@ h1, h2, h3, h4, h5, h6,
     padding-top: 30px;
 }
 
+/* 1189 */
+.pt-50, .py-50 {
+    padding-top: 50px;
+}
+
 /* 1213 */
 .pt-80, .py-80 {
     padding-top: 80px;
@@ -837,6 +842,37 @@ h1, h2, h3, h4, h5, h6,
     display: flex;
     align-items: center;
     justify-content: start;
+}
+
+/* 5788 */
+.page-banner::before {
+    background: #222f5a;
+}
+
+/* 5790 */
+.page-banner .page-title {
+    color: white;
+    text-transform: capitalize;
+}
+
+/* 5802 */
+.page-banner .breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    text-transform: capitalize;
+}
+
+/* 5807 */
+.page-banner .breadcrumb .breadcrumb-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* 5811 */
+.page-banner .breadcrumb .breadcrumb-item a {
+    color: white;
 }
 
 /* 5820 */
