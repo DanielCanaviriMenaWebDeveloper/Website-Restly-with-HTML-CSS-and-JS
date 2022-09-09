@@ -576,6 +576,13 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
+/* 3637 */
+@media only screen and (max-width: 991px) {
+    .rmb-55, .rmy-55 {
+        margin-bottom: 55px;
+    }
+}
+
 /* 3646 */
 @media only screen and (max-width: 991px) {
     .rmb-70, .rmy-70 {
@@ -1298,6 +1305,92 @@ h1, h2, h3, h4, h5, h6,
     margin-right: 15px;
 }
 
+/* 8643 */
+.widget {
+    background: white;
+    padding: 35px 30px;
+    margin-bottom: 55px;
+}
+
+/* 8651 */
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+/* 8787 */
+.widget-services {
+    padding: 0;
+}
+
+/* 8789 */
+.widget-services li {
+    margin-bottom: 10px;
+}
+
+/* 8791 */
+.widget-services li a {
+    display: flex;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 2px solid #e6ecf7;
+}
+
+/* 8802 */
+.widget-services li a::after {
+    color: #8e959b;
+    content: "\f061";
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: auto;
+    font-family: 'Font Awesome 5 Free';
+}
+
+/* 8809 */
+.widget-services li:hover a, 
+.widget-services li.active a{
+    border-color: #104cba;
+}
+
+/* 9713 */
+.contact-image-number {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    min-height: 400px;
+    border-radius: 5px;
+}
+
+/* 9757 */
+.contact-image-number.style-two {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 9775 */
+.contact-image-number.style-two::before {
+    opacity: 0.9;
+    background-color: #104cba;
+}
+
+/* 9778 */
+.contact-image-number.style-two h3 {
+    font-size: 30px;
+}
+
+/* 9783 */
+.contact-image-number .contact-info li {
+    margin-top: 35px;
+}
+
+/* 9785 */
+.contact-image-number .contact-info li i {
+    color: white;
+    background: rgba(255, 255, 255, 0.25);
+}
+
 /* 10987 */
 .footer-widget-area {
     background-color: #1256d1;
@@ -1350,6 +1443,22 @@ h1, h2, h3, h4, h5, h6,
     height: 45px;
     background: #417fef;
     line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* 11043 */
+.contact-info li {
+    display: flex;
+}
+
+/* 11047 */
+.contact-info li i {
+    flex: none;
+    margin: 5px 12px 0 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border-radius: 50%;
     text-align: center;
 }
