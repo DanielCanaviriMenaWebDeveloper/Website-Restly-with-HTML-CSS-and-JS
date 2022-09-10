@@ -47,7 +47,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 
 /* 84 */
-.text-white h1, .text-white h2, .text-white h3, .text-white h4 {
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5 a {
     color: white;
 }
 
@@ -251,6 +251,22 @@ a.theme-btn.style-two {
     margin: 6px 20px 0 0;
 }
 
+/* 547 */
+.list-style-three li {
+    display: flex;
+    text-transform: capitalize;
+}
+
+/* 553 */
+.list-style-three li::before {
+    font-size: 14px;
+    content: "\f00c";
+    font-weight: 700;
+    margin-right: 20px;
+    color: #104cba;
+    font-family: 'Font Awesome 5 Free';
+}
+
 /* 562 */
 .social-style-one {
     display: inline-block;
@@ -360,6 +376,11 @@ h1, h2, h3, h4, h5, h6,
 /* 1161 */
 .pt-15, .py-15 {
     padding-top: 15px;
+}
+
+/* 1169 */
+.pt-25, .py-25 {
+    padding-top: 25px;
 }
 
 /* 1173 */
@@ -509,6 +530,11 @@ h1, h2, h3, h4, h5, h6,
 /* 2534 */
 .mb-35, .my-35 {
     margin-bottom: 35px;
+}
+
+/* 2538 */
+.mb-40, .my-40 {
+    margin-bottom: 40px;
 }
 
 /* 2550 */
@@ -1024,6 +1050,61 @@ h1, h2, h3, h4, h5, h6,
     background: #285ec1;
 }
 
+/* 6317 */
+.service-normal.style-two {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 25px 15px 10px;
+}
+
+/* 6673 */
+.service-details-content h2, 
+.service-details-content h3,  
+.service-details-content h4, 
+.service-details-content h5, 
+.service-details-content h6, 
+.service-details-content p {
+    margin-bottom: 15px;
+}
+
+/* 6676 */
+.service-details-content h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* 6680 */
+.service-details-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* 6684 */
+.service-details-content .list-style-three {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 6696 */
+.service-details-content .list-style-three li {
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+/* 6703 */
+.service-details-content .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/* 6706 */
+.service-details-content .row > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* 6713 */
 .success-item {
     margin-bottom: 50px;
@@ -1389,6 +1470,11 @@ h1, h2, h3, h4, h5, h6,
 .contact-image-number .contact-info li i {
     color: white;
     background: rgba(255, 255, 255, 0.25);
+}
+
+/* 9788 */
+.contact-image-number .contact-info li span {
+    opacity: 0.7;
 }
 
 /* 10987 */
