@@ -579,6 +579,14 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
+/* 3204 */
+@media only screen and (max-width: 991px) {
+    .rpb-65, .rpy-65 {
+        padding-bottom: 65px;
+    }
+}
+
+
 /* 3207 */
 @media only screen and (max-width: 991px) {
     .rpb-70, .rpy-70 {
@@ -1207,6 +1215,12 @@ h1, h2, h3, h4, h5, h6,
     border-radius: 50%;
     text-align: center;
     color: #104cba;
+}
+
+/* 7182 */
+.work-progress-three {
+    background-position: 0 100%;
+    background-repeat: no-repeat;
 }
 
 /* 7285 */
