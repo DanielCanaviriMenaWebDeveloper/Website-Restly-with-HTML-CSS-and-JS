@@ -1217,10 +1217,40 @@ h1, h2, h3, h4, h5, h6,
     color: #104cba;
 }
 
+/* 7126 */
+.progress-item-two {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+/* 7166 */
+.progress-item-two .progress-step {
+    position: absolute;
+    font-size: 125px;
+    font-weight: 900;
+    opacity: 0.06;
+    left: 50%;
+    z-index: -1;
+    bottom: 5px;
+    line-height: 1;
+    color: #104cba;
+    font-family: "Nunito", sans-serif;
+    transform: translate(-50%);
+}
+
+
 /* 7182 */
 .work-progress-three {
     background-position: 0 100%;
     background-repeat: no-repeat;
+}
+
+/* 7186 */
+.progress-item-two.style-two {
+    border: none;
+    margin-top: -65px;
+    padding: 0 15px 30px;
 }
 
 /* 7285 */
